@@ -1,10 +1,10 @@
 import random
 import requests
 
-response = requests.get('https://raw.githubusercontent.com/Msnehulak/Python/refs/heads/main/Data/Dictionary/Symbols/Small%20abc.txt')
+response = requests.get('https://raw.githubusercontent.com/Msnehulak/Python/refs/heads/main/Data/Dictionary/Symbols/Small_abc.txt')
 alfabet = response.text.splitlines()
 
-response = requests.get('https://raw.githubusercontent.com/Msnehulak/Python/refs/heads/main/Data/Dictionary/Symbols/Big%20ABC.txt')
+response = requests.get('https://raw.githubusercontent.com/Msnehulak/Python/refs/heads/main/Data/Dictionary/Symbols/Big_ABC.txt')
 Alfabet = response.text.splitlines()
 
 response = requests.get('https://raw.githubusercontent.com/Msnehulak/Python/refs/heads/main/Data/Dictionary/Symbols/Symbols.txt')
@@ -15,7 +15,7 @@ numer = response.text.splitlines()
 
 print(alfabet)
 print(Alfabet)
-print(response)
+print(simbols)
 print(numer)
 
 # Psword cfg
