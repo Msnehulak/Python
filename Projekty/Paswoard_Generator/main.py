@@ -1,9 +1,22 @@
 import random
+import requests
 
-alfabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-Alfabet = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
-simbols  = [".", ",", "-", "_",";", ":", "=", "+", "+", "-", "*", "/"]
-numer = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
+response = requests.get('https://raw.githubusercontent.com/Msnehulak/Python/refs/heads/main/Data/Dictionary/Symbols/Small%20abc.txt')
+alfabet = response.text.splitlines()
+
+response = requests.get('https://raw.githubusercontent.com/Msnehulak/Python/refs/heads/main/Data/Dictionary/Symbols/Big%20ABC.txt')
+Alfabet = response.text.splitlines()
+
+response = requests.get('https://raw.githubusercontent.com/Msnehulak/Python/refs/heads/main/Data/Dictionary/Symbols/Symbols.txt')
+simbols = response.text.splitlines()
+
+response = requests.get('https://raw.githubusercontent.com/Msnehulak/Python/refs/heads/main/Data/Dictionary/Symbols/Numer.txt')
+numer = response.text.splitlines()
+
+print(alfabet)
+print(Alfabet)
+print(response)
+print(numer)
 
 # Psword cfg
 cfg = [16, # long
