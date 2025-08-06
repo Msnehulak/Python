@@ -1,3 +1,10 @@
+List create: Msnehulak
+GitHub: https://github.com/Msnehulak
+
 White
+Black
 Blue
 Red
+Green
+Pink
+Yellow

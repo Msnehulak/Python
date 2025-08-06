@@ -1,3 +1,6 @@
+List create: Msnehulak
+GitHub: https://github.com/Msnehulak
+
 Valorant
 GTA V
 Doom
@@ -10,3 +13,6 @@ Dying Light 2
 Dying Light The Beast
 Fornite
 Minecraft
+The Batlle Cats
+Chess
+Leauge of Legends
