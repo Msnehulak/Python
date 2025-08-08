@@ -1,5 +1,10 @@
 import requests
 
+def savedata(seznam, nazev_souboru):
+    with open(nazev_souboru, "w") as file:
+        for item in seznam:
+            file.write(item + "\n")
+
 out = []
 
 # Movies
@@ -70,7 +75,7 @@ out.extend(Colorsout)
 
 # States
 Statesout = []
-States = requests.get('https://github.com/Msnehulak/Python/blob/main/Data/Dictionary/States.txt')
+States = requests.get('https://raw.githubusercontent.com/Msnehulak/Python/refs/heads/main/Data/Dictionary/States.txt')
 States = States.text.splitlines()
 toadd = ['', 'capital', 'population', 'area', 'largest city', 'statehood date', 'abbreviation', 'flag', 'motto', 
          'nickname', 'time zone', 'geographical features', 'economy', 'tourist attractions', 'history', 'culture',
@@ -85,5 +90,5 @@ out.extend(Statesout)
 
 print(len(out))
 
-
+savedata(out, 'RandomSearch.txt')
 
