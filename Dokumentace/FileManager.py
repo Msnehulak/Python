@@ -8,3 +8,13 @@ def loaddata(nazev_souboru):
     return out
 
 data = loaddata('file name')
+
+
+def savedata(seznam, nazev_souboru):
+    with open(nazev_souboru, "w") as file:
+        for item in seznam:
+            file.write(item + "\n")
+
+list = ["data1", "data2", "data3"]
+savedata(list, "file name")
+
