@@ -13,6 +13,7 @@ toadd = ['', 'IMBb', 'cast', 'awards', 'trailer', 'reviews', 'director', 'soundt
 for i in range(len(Movies)):
     for x in range(len(toadd)):
         Moviesout.append(Movies[i] + ' ' + toadd[x])
+print(len(Moviesout), ' Movies')
 out.extend(Moviesout)
 
 # Series
@@ -25,6 +26,7 @@ toadd = ['', 'IMBb', 'cast', 'awards', 'trailer', 'reviews', 'director', 'soundt
 for i in range(len(Series)):
     for x in range(len(toadd)):
         Seriesout.append(Series[i] + ' ' + toadd[x])
+print(len(Seriesout), ' Series')
 out.extend(Seriesout)
 
 # Games
@@ -37,6 +39,7 @@ toadd = ['', 'IMBb', 'cast', 'awards', 'trailer', 'reviews', 'director', 'soundt
 for i in range(len(Games)):
     for x in range(len(toadd)):
         Gamesout.append(Games[i] + ' ' + toadd[x])
+print(len(Gamesout), ' Games')
 out.extend(Gamesout)
 
 # Company
@@ -49,7 +52,36 @@ toadd = ['', 'IMBb', 'revenue', 'employees', 'founded', 'headquarters', 'website
 for i in range(len(Company)):
     for x in range(len(toadd)):
         Companyout.append(Company[i] + ' ' + toadd[x])
+print(len(Companyout), ' Companies')
 out.extend(Companyout)
+
+# Colors
+Colorsout = []
+Colors = requests.get('https://raw.githubusercontent.com/Msnehulak/Python/refs/heads/main/Data/Dictionary/Colors.txt')
+Colors = Colors.text.splitlines()
+toadd = ['', 'hex code', 'rgb value', 'cmyk value', 'hsl value', 'lab value', 'xyz value', 'pantone value', 
+         'web safe color', 'color family', 'color meaning', 'color symbolism', 'color psychology', 'color associations', 'color trends']
+
+for i in range(len(Colors)):
+    for x in range(len(toadd)):
+        Colorsout.append(Colors[i] + ' ' + toadd[x])
+print(len(Colorsout), ' Colors')
+out.extend(Colorsout)
+
+# States
+Statesout = []
+States = requests.get('https://github.com/Msnehulak/Python/blob/main/Data/Dictionary/States.txt')
+States = States.text.splitlines()
+toadd = ['', 'capital', 'population', 'area', 'largest city', 'statehood date', 'abbreviation', 'flag', 'motto', 
+         'nickname', 'time zone', 'geographical features', 'economy', 'tourist attractions', 'history', 'culture',
+         'government', 'education', 'transportation', 'environmental issues']
+
+for i in range(len(States)):
+    for x in range(len(toadd)):
+        Statesout.append(States[i] + ' ' + toadd[x])
+print(len(Statesout),' States')
+out.extend(Statesout)
+
 
 print(len(out))
 
