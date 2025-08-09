@@ -1,8 +1,9 @@
 Valorant
 GTA V
 Doom
+Call of Duty: Warzone
 Counter-Strike 2
-CG:GO
+Counter-Strike: Global Offensive
 Genshin Impact
 Kingdom Come Deliverance
 Dying Light
@@ -13,3 +14,68 @@ Minecraft
 The Batlle Cats
 Chess
 Leauge of Legends
+World of Warcraft
+The Elder Scrolls V: Skyrim
+Apex Legends
+Overwatch 2
+Rocket League
+Among Us
+Cyberpunk 2077
+Red Dead Redemption 2
+FIFA 23
+The Witcher 3: Wild Hunt
+Terraria
+Stardew Valley
+Animal Crossing: New Horizons
+Super Mario Odyssey
+Halo Infinite
+Portal 2
+Hades
+Sekiro: Shadows Die Twice
+Elden Ring
+Fall Guys
+Destiny 2
+Team Fortress 2
+Subnautica
+Hollow Knight
+Celeste
+Dead by Daylight
+Phasmophobia
+Rainbow Six Siege
+Splatoon 3
+Monster Hunter: World
+Assassin's Creed Valhalla
+Gran Turismo 7
+Super Smash Bros. Ultimate
+The Legend of Zelda: Breath of the Wild
+Persona 5 Royal
+Dark Souls III
+Resident Evil Village
+Ghost of Tsushima
+Marvel's Spider-Man
+Cuphead
+Fire Emblem: Three Houses
+Animal Crossing: Pocket Camp
+No Man's Sky
+Borderlands 3
+Bioshock Infinite
+Half-Life 2
+Mass Effect 2
+The Last of Us Part II
+Uncharted 4: A Thief's End
+God of War
+Super Mario Bros.
+Pac-Man
+Tetris
+The Legend of Zelda: Ocarina of Time
+Metal Gear Solid
+Final Fantasy VII
+Pokémon Red/Blue
+Super Metroid
+Journey
+Inside
+Limbo
+Undertale
+Cuphead
+Control
+Death Stranding
